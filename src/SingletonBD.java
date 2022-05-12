@@ -11,7 +11,9 @@ public class SingletonBD {
 
     public static void escolherPedido(){ }
 
-    public static void deletarPedido(){ }
+    public static void deletarPedido(){
+        System.out.println("Pedido deletado com sucesso!\n");
+    }
 
     public static void lerPedido(){ }
 
