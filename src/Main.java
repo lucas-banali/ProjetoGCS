@@ -1,3 +1,9 @@
+/* Atividade de Gestão e configuração de software
+* Lucas Banalli
+* Daniel Oleinik
+* Nicolas Mulder
+* Thiago Vicente
+* */
 import java.util.Scanner;
 
 public class Main {
