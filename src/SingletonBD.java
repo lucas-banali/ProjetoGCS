@@ -71,6 +71,8 @@ public class SingletonBD {
         System.out.println("Pedimos desculpas, mas volte mais tarde - ERROR 500!\n");
     }
 
+    public static void concluirPedido() { System.out.println(" Obrigado! Execute o pagamento!\n"); };
+
     public static void pagarPedido(){
         int modo_pagamento =0;
         while(modo_pagamento != 9) {
