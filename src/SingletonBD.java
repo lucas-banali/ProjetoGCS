@@ -8,7 +8,16 @@ public class SingletonBD {
 
     private SingletonBD() { }
 
-    public static void listarCardapio(){ }
+    public static void listarCardapio(){
+
+        System.out.println("**** Cardápio de comida mexicana ****: \n\n\n\n\n\n");
+        System.out.println("(1) Guacamole\n");
+        System.out.println("(2) Chile\n");
+        System.out.println("(3) Tacos\n");
+        System.out.println("(4) Sour Cream\n");
+        System.out.println("(9) Sair\n");
+        
+    }
 
     public static void escolherPedido(){
 
