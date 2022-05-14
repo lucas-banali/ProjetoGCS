@@ -19,6 +19,7 @@ public class Main {
             System.out.println("(2) Escolher item do pedido");
             System.out.println("(3) Deletar item do pedido");
             System.out.println("(4) Ler pedido\n");
+            System.out.println("(4) Pagar pedido\n");
             System.out.println("(9) Sair\n");
             System.out.print("Opção: ");
             opcao = sc.nextInt();
@@ -34,6 +35,9 @@ public class Main {
             }
             else if(opcao == 4) {
                 SingletonBD.lerPedido();
+            }
+            else if(opcao == 5) {
+                SingletonBD.pagarPedido();
             }
             else if(opcao == 9) {
                 System.exit(0);

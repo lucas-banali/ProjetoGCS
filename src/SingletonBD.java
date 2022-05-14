@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -72,4 +71,40 @@ public class SingletonBD {
         System.out.println("Pedimos desculpas, mas volte mais tarde - ERROR 500!\n");
     }
 
+    public static void pagarPedido(){
+        int modo_pagamento =0;
+        while(modo_pagamento != 9) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("**** Escolha modo de pagamento ****");
+            System.out.println("(1) Débito");
+            System.out.println("(2) Crédito");
+            System.out.println("(3) Dinheiro no caixa");
+            System.out.println("(9) Sair\n");
+            System.out.print("Opção: ");
+            modo_pagamento = sc.nextInt();
+
+            switch (modo_pagamento) {
+                case 1:
+                    System.out.println("Insira o cartão de débito, cofirme o valor e digite sua senha");
+                    System.out.println("\n");
+                    break;
+                case 2:
+                    System.out.println("Insira o cartão de crédito, cofirme o valor e digite sua senha");
+                    System.out.println("\n");
+                    break;
+                case 3:
+                    System.out.println("Dirija-se ao caixa para pagar");
+                    System.out.println("\n");
+                    break;
+                case 9:
+                    System.out.println("Saindo");
+                    System.out.println("\n\n\n\n\n\n\n\n\n");
+                    break;
+                default:
+                    System.out.println("Não identificado - Dirija-se ao caixa para pagar");
+                    System.out.println("\n\n\n\n\n\n\n\n\n");
+                    break;
+            }
+        }
+    }
 }
