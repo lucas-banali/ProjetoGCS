@@ -43,12 +43,12 @@ public class SingletonBD {
                     break;
                 case 9:
                     System.out.println("Saindo");
-                    System.exit(0);
+
                     System.out.println("\n\n\n\n\n\n\n\n\n");
                     break;
                 default:
                     System.out.println("Não identificado -Saindo");
-                    System.exit(0);
+
                     System.out.println("\n\n\n\n\n\n\n\n\n");
                 break;
             }
